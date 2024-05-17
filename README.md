@@ -1,6 +1,9 @@
+# Bank-Loan-Report-Data-Analysis-Using-PowerBI-SQL
+
 Project Name: Bank Loan Report Analysis This Project involves analyzing the dataset of Bank Loan Report by using SQL and Power BI. The main objective of the projects are :
 
 Key Performance Indicators (KPI’s) Requirements:
+
 
 DASHBOARD 1: SUMMARY
 
@@ -38,6 +41,7 @@ such as 'Total Loan Applications,' 'Total Funded Amount', 'Total Amount Received
 this grid view will empower us to make data-driven decisions .
 
 
+
 DASHBOARD 2: OVERVIEW
 
 CHARTS :
@@ -54,6 +58,7 @@ CHARTS :
 6.Home Ownership Analysis (Tree Map): For a hierarchical view of how home ownership impacts loan applications.
 
 Metrics to be shown: 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
+
 
 
 DASHBOARD 3: DETAILS
