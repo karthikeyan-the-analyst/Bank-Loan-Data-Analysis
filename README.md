@@ -1,8 +1,8 @@
-
-
-DASHBOARD 1: SUMMARY
+Project Name: Bank Loan Report Analysis This Project involves analyzing the dataset of Bank Loan Report by using SQL and Power BI. The main objective of the projects are :
 
 Key Performance Indicators (KPI’s) Requirements:
+
+DASHBOARD 1: SUMMARY
 
 Total Loan Applications: We need to calculate the total number of loan applications received during a specified period.
 
