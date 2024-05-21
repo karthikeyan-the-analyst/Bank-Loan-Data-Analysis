@@ -17,7 +17,7 @@ Data Source :
 
 The project is based on a comprehensive dataset stored in SQL Server, encompassing various aspects of bank loans, including loan amounts, issue dates, interest rates, DTI ratios, and loan statuses.
 
-Methodology :
+Methodology :-
 
 Database Creation and Data Ingestion: A relational database was created in SQL Management Server to store loan data.
 
@@ -27,7 +27,7 @@ Categorization of Loans: Loans were categorized as 'Good' or 'Bad' based on thei
 
 Temporal and Categorical Insights: Analysis was performed based on the issue month, state, loan term, employee length, loan purpose, and home ownership. Comparison with Power BI: The SQL query outputs were then compared with Power BI visualizations to ensure data consistency and to provide a graphical representation of the findings.
 
-Key Insights and Findings :
+Key Insights and Findings :-
 
 A breakdown of the total loan applications and the distinction between MTD (Month-To-Date) and PMTD (Previous Month-To-Date) applications.
 Analysis of the total funded amount versus amounts received, offering insights into the bank's liquidity and loan performance.
@@ -35,13 +35,13 @@ The average interest rate and DTI (Debt to Income) ratio analysis to understand 
 Segmentation of loans into 'Good' and 'Bad' categories, providing a clear picture of the loan portfolio's risk profile.
 Detailed breakdowns by loan status, purpose, state, term, and other factors to identify patterns and trends.
 
-Tools and Technologies Used :
+Tools and Technologies Used :-
 
 1.SQL Management Server: For database management and data analysis.
 
 2.Power BI: For data visualization and dashboard creation.
 
-Future Work :
+Future Work :-
 
 Suggestions for future analyses could include predictive modeling to forecast loan defaults, demographic analysis to tailor loan products, or a deeper dive into the impact of loan terms on repayment rates.
 
