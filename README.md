@@ -1,7 +1,5 @@
 # Bank-Loan-Report-Data-Analysis-Using-PowerBI-SQL
 
-Project Title :
-Comprehensive Bank Loan Analysis Using SQL and Power BI
 
 Project Overview
 
