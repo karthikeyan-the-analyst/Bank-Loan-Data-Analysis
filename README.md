@@ -20,8 +20,11 @@ The project is based on a comprehensive dataset stored in SQL Server, encompassi
 Methodology :
 
 Database Creation and Data Ingestion: A relational database was created in SQL Management Server to store loan data.
+
 Data Analysis and Query Writing: SQL queries were written to extract key performance indicators (KPIs), including total and monthly loan applications, funded amounts, average interest rates, and loan status breakdowns.
+
 Categorization of Loans: Loans were categorized as 'Good' or 'Bad' based on their repayment status, with further analysis on funded amounts and payments received.
+
 Temporal and Categorical Insights: Analysis was performed based on the issue month, state, loan term, employee length, loan purpose, and home ownership. Comparison with Power BI: The SQL query outputs were then compared with Power BI visualizations to ensure data consistency and to provide a graphical representation of the findings.
 
 Key Insights and Findings :
