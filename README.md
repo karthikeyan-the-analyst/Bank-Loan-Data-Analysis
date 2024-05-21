@@ -1,73 +1,44 @@
 # Bank-Loan-Report-Data-Analysis-Using-PowerBI-SQL
 
-Project Name: Bank Loan Report Analysis This Project involves analyzing the dataset of Bank Loan Report by using SQL and Power BI. The main objective of the projects are :
+Project Title :
+Comprehensive Bank Loan Analysis Using SQL and Power BI
 
-Key Performance Indicators (KPI’s) Requirements:
+Project Overview
 
+This project delves into a detailed analysis of bank loan data, utilizing SQL for data querying and manipulation, followed by visualization and further analysis in Power BI. The primary goal is to uncover insights related to loan applications, funding, repayments, and borrower demographics. The analysis spans various dimensions, including temporal (month, term), geographical (state), and categorical aspects (purpose, home ownership).
 
-DASHBOARD 1: SUMMARY
+Objectives
 
-Total Loan Applications: We need to calculate the total number of loan applications received during a specified period.
+To provide a holistic view of the bank's loan portfolio performance.
+To identify trends and patterns in loan applications, approval rates, and repayment statuses.
+To assess financial health through KPIs such as Total Funded Amount, Average Interest Rate, and Loan Status.
+To facilitate strategic decision-making for the bank's credit and loan offerings.
+Data Source
 
-2.Total Funded Amount: Understanding the total amount of funds given to the applicants.
+The project is based on a comprehensive dataset stored in SQL Server, encompassing various aspects of bank loans, including loan amounts, issue dates, interest rates, DTI ratios, and loan statuses.
 
-3.Total Amount Received: Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment.
+Methodology
 
-4.Average Interest Rate: Calculating the average interest rate across all loans.
+Database Creation and Data Ingestion: A relational database was created in SQL Management Server to store loan data.
+Data Analysis and Query Writing: SQL queries were written to extract key performance indicators (KPIs), including total and monthly loan applications, funded amounts, average interest rates, and loan status breakdowns.
+Categorization of Loans: Loans were categorized as 'Good' or 'Bad' based on their repayment status, with further analysis on funded amounts and payments received.
+Temporal and Categorical Insights: Analysis was performed based on the issue month, state, loan term, employee length, loan purpose, and home ownership. Comparison with Power BI: The SQL query outputs were then compared with Power BI visualizations to ensure data consistency and to provide a graphical representation of the findings.
+Key Insights and Findings
 
-5.Average Debt-to-Income Ratio (DTI): Evaluating the average DTI for our borrowers helps us to determine their financial  health. We need to compute the average DTI for all loans, MTD, and 
-track Month-over-Month (MoM) fluctuations.
+A breakdown of the total loan applications and the distinction between MTD (Month-To-Date) and PMTD (Previous Month-To-Date) applications.
+Analysis of the total funded amount versus amounts received, offering insights into the bank's liquidity and loan performance.
+The average interest rate and DTI (Debt to Income) ratio analysis to understand the financial health of the borrowers.
+Segmentation of loans into 'Good' and 'Bad' categories, providing a clear picture of the loan portfolio's risk profile.
+Detailed breakdowns by loan status, purpose, state, term, and other factors to identify patterns and trends.
+Tools and Technologies Used
 
+SQL Management Server: For database management and data analysis.
+Power BI: For data visualization and dashboard creation.
+Future Work
 
-Good Loan v Bad Loan KPI’s :
+Suggestions for future analyses could include predictive modeling to forecast loan defaults, demographic analysis to tailor loan products, or a deeper dive into the impact of loan terms on repayment rates.
 
-Good Loan:
-1.Good Loan Application
-2.Good Loan Applications  Percentage
-3.Good Loan Funded Amount
-4.Good Loan Total Received Amount
+Conclusion
 
-Bad Loan :
-1.Bad Loan Application 
-2.Bad Loan Applications Percentage
-3.Bad Loan Funded Amount
-4.Bad Loan Total Received Amount
+This project offers valuable insights into the bank's loan portfolio, highlighting areas of strength and opportunities for improvement. It serves as a robust model for data-driven decision-making in financial services.
 
-
-Loan Status Grid View :
-
-In order to gain a comprehensive overview of our lending operations and monitor the performance of loans, we aim to create a grid view report categorized by 'Loan Status’. By providing insights into metrics
-such as 'Total Loan Applications,' 'Total Funded Amount', 'Total Amount Received', 'Month-to-Date (MTD) Funded Amount', 'MTD Amount Received', 'Average Interest Rate', and 'Average Debt-to-Income Ratio (DTI)',
-this grid view will empower us to make data-driven decisions .
-
-
-
-DASHBOARD 2: OVERVIEW
-
-CHARTS :
-1.Monthly Trends by Issue Date (Line Chart):  To identify seasonality and long-term trends in lending activities.
-
-2.Regional Analysis by State (Filled Map): To identify regions with significant lending activity.
-
-3.Loan Term Analysis (Donut Chart): To allow the client to understand the distribution of loans across various term lengths.
-
-4.Employee Length Analysis (Bar Chart):  The Lenders will check the borrowers occupation and income which helping us assess the impact of employment history on loan applications.
-
-5.Loan Purpose Breakdown (Bar Chart):  The Lender will check what purpose the applicant taking loans, aiding in the understanding of the primary reasons borrowers seek financing.
-
-6.Home Ownership Analysis (Tree Map): For a hierarchical view of how home ownership impacts loan applications.
-
-Metrics to be shown: 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
-
-
-
-DASHBOARD 3: DETAILS
-
-GRID :
-
-Need for a comprehensive 'Details Dashboard' that provides a consolidated view of all the essential information within our loan data. This Details Dashboard will gives us loan-related metrics and data points, 
-enabling users to access critical information efficiently.
-
-Objective:
-The primary objective of the Details Dashboard is to provide a comprehensive and user-friendly interface for accessing vital loan data. It will serve as a one-stop solution for users seeking detailed insights
-into our loan portfolio, borrower profiles, and loan performance.
