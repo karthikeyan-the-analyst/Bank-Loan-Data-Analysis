@@ -35,6 +35,7 @@ Detailed breakdowns by loan status, purpose, state, term, and other factors to i
 # Tools and Technologies Used
 
 1.SQL Management Server: For database management and data analysis.
+
 2.Power BI: For data visualization and dashboard creation.
 
 # Future Work
